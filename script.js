@@ -19,6 +19,7 @@ function toggleMode() {
       "Selfie de Rafael de Sá Alberto, usando camiseta branca olhando para a câmera"
     )
   }
+
   //senão manter img
   else {
     img.setAttribute("src", "./Assets/Perfil round.png")
