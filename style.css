@@ -5,7 +5,7 @@
 }
 :root {
   --text-color: white;
-  --bg-url: url(./Assets/Bg_Dark_M.png);
+  --bg-url: url(./Assets/Bg_Dark_M.jpg);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.5);
   --surface-color-hover: rgba(0, 0, 0, 0.3);
@@ -17,7 +17,7 @@
 
 .light {
   --text-color: black;
-  --bg-url: url(./Assets/Bg_Light_M.png);
+  --bg-url: url(./Assets/Bg_Light_M.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.3);
@@ -198,10 +198,10 @@ footer {
 
 @media (min-width: 700px) {
   :root {
-    --bg-url: url(./assets/BG_Dark.png);
+    --bg-url: url(./assets/BG_Dark.jpg);
   }
 
   .light {
-    --bg-url: url(./assets/Bg_Light.png);
+    --bg-url: url(./assets/Bg_Light.jpg);
   }
 }
