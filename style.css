@@ -5,7 +5,7 @@
 }
 :root {
   --text-color: white;
-  --bg-url: url(./Assets/BG_Dark.jpg);
+  --bg-url: url(./Assets/Bg_Dark_M.png);
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.5);
   --surface-color-hover: rgba(0, 0, 0, 0.3);
@@ -17,7 +17,7 @@
 
 .light {
   --text-color: black;
-  --bg-url: url(./Assets/BG_White.jpg);
+  --bg-url: url(./Assets/Bg_Light_M.png);
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.3);
@@ -46,9 +46,9 @@ body * {
 #container {
   /* border: 1px solid antiquewhite;*/
   width: 100%;
-  max-width: 360px;
-  margin: auto;
-  padding: 5px 24px;
+  max-width: 588px;
+  margin: 56px auto 0px;
+  padding: 0 24px;
 }
 
 #profile {
@@ -177,18 +177,6 @@ footer {
   font-size: 14px;
 }
 
-/* alterar o Background de acordo com o tamanho da tela
-
-@media (min-width: 700px) {
-  :root {
-    --bg-url:url{./assets/NOMEDOARQUIVO1.jpg);
-    }
-
-    .light {
-    --bg-url:url{./assets/NOMEDOARQUIVO2.jpg);
-    }
-  } */
-
 /* ANIMAÇÃO - conferido */
 @keyframes slide-in {
   from {
@@ -205,5 +193,15 @@ footer {
   }
   to {
     left: 0;
+  }
+}
+
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/BG_Dark.png);
+  }
+
+  .light {
+    --bg-url: url(./assets/Bg_Light.png);
   }
 }
