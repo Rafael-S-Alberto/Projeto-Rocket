@@ -11,7 +11,7 @@ function toggleMode() {
   //pegar a tag img
   const img = document.querySelector("#profile img")
   //substituir a imagem
-  //se light mode adicionar imag-ligh
+  //se light mode adicionar imag-light
   if (html.classList.contains("light")) {
     img.setAttribute("src", "./assets/Perfil_Round_Light.png")
     img.setAttribute(
@@ -22,7 +22,7 @@ function toggleMode() {
 
   //senão manter img
   else {
-    img.setAttribute("src", "./Assets/Perfil round.png")
+    img.setAttribute("src", "./Assets/Perfil_Round.png")
     img.setAttribute(
       "alt",
       "Foto do busto de Rafael de Sá Alberto de perfil, olhando para a direita, com os cabelos cacheados soltos, usando camisa jeans e bandana na altura da testa."
