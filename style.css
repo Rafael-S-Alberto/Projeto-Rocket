@@ -201,7 +201,7 @@ footer {
     --bg-url: url(./assets/BG_Dark.jpg);
   }
 
-  .light {
+  .hydrated_light {
     --bg-url: url(./assets/Bg_Light.jpg);
   }
 }
