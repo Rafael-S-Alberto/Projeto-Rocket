@@ -6,13 +6,13 @@ function toggleMode() {
   //} else {
   //  html.classList.add('light')
   //}
-  html.classList.toggle("light")
+  html.classList.toggle("hydrated_light")
 
   //pegar a tag img
   const img = document.querySelector("#profile img")
   //substituir a imagem
   //se light mode adicionar imag-light
-  if (html.classList.contains("light")) {
+  if (html.classList.contains("hydrated_light")) {
     img.setAttribute("src", "./assets/Perfil_Round_Light.png")
     img.setAttribute(
       "alt",

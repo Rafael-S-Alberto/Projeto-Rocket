@@ -15,7 +15,7 @@
   --border-r-image: 50%;
 }
 
-.light {
+.hydrated_light {
   --text-color: black;
   --bg-url: url(./Assets/Bg_Light_M.jpg);
   --stroke-color: rgba(0, 0, 0, 0.5);
@@ -62,7 +62,7 @@ body * {
   border-radius: var(--border-r-image);
 }
 
-.light #profile img {
+.hydrated_light #profile img {
   width: 112px;
   border: var(--border-image);
   border-radius: var(--border-r-image);
@@ -100,7 +100,7 @@ body * {
   outline: 8px solid var(--highlight-color);
 }
 
-.light #switch button {
+.hydrated_light #switch button {
   animation: slide-in 0.4s forwards;
 }
 
